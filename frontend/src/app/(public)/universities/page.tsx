@@ -60,7 +60,7 @@ export default function UniversitiesPage() {
               Our Partner <span className="text-[#0B3C91]">Universities</span>
             </h1>
             <p className="text-gray-600 text-lg max-w-2xl mx-auto mb-8">
-              Choose from India's finest accredited universities. All partners
+              Choose from India&apos;s finest accredited universities. All partners
               are carefully selected for quality, affordability, and student
               support.
             </p>

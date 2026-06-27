@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Phone, Mail, MapPin } from "lucide-react";
-import { SITE_CONFIG, NAV_LINKS } from "@/lib/constants";
+import { SITE_CONFIG } from "@/lib/constants";
 
 const QUICK_LINKS = [
   { label: "About Us", href: "/about" },

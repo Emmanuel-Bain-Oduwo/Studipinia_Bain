@@ -142,7 +142,7 @@ export default function AdminDashboard() {
                 <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-2">
                   {CRM_STAGES.map((stage, i) => (
                     <div key={i} className={`p-3 rounded-xl ${stage.bg} text-center`}>
-                      <div className={`text-xl font-black ${stage.color}`}>{Math.floor(Math.random() * 50) + 5}</div>
+                      <div className={`text-xl font-black ${stage.color}`}>{stage.count}</div>
                       <div className={`text-[10px] font-medium ${stage.color} leading-tight mt-1`}>{stage.status}</div>
                     </div>
                   ))}

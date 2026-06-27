@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X, Phone, ChevronDown } from "lucide-react";
+import { Menu, X, Phone } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { NAV_LINKS, SITE_CONFIG } from "@/lib/constants";
 
@@ -20,7 +20,8 @@ export default function Header() {
   }, []);
 
   useEffect(() => {
-    setMobileOpen(false);
+    const t = setTimeout(() => setMobileOpen(false), 0);
+    return () => clearTimeout(t);
   }, [pathname]);
 
   return (

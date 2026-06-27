@@ -69,7 +69,7 @@ export default function VisaPage() {
               Our Visa Process
             </h2>
             <div className="space-y-4 max-w-2xl mx-auto">
-              {STEPS.map((s, i) => (
+              {STEPS.map((s) => (
                 <div
                   key={s.step}
                   className="flex items-start gap-4 p-5 rounded-2xl bg-[#f8faff] border border-gray-100"

@@ -330,13 +330,13 @@ export const FAQS = [
   },
 ];
 
-export const CRM_STAGES: { status: string; color: string; bg: string }[] = [
-  { status: "New Lead", color: "text-blue-700", bg: "bg-blue-100" },
-  { status: "Contacted", color: "text-yellow-700", bg: "bg-yellow-100" },
-  { status: "Documents Received", color: "text-orange-700", bg: "bg-orange-100" },
-  { status: "Application Submitted", color: "text-purple-700", bg: "bg-purple-100" },
-  { status: "Admission Issued", color: "text-green-700", bg: "bg-green-100" },
-  { status: "Visa Processing", color: "text-teal-700", bg: "bg-teal-100" },
-  { status: "Enrolled", color: "text-indigo-700", bg: "bg-indigo-100" },
-  { status: "Commission Completed", color: "text-emerald-700", bg: "bg-emerald-100" },
+export const CRM_STAGES: { status: string; color: string; bg: string; count: number }[] = [
+  { status: "New Lead", color: "text-blue-700", bg: "bg-blue-100", count: 42 },
+  { status: "Contacted", color: "text-yellow-700", bg: "bg-yellow-100", count: 38 },
+  { status: "Documents Received", color: "text-orange-700", bg: "bg-orange-100", count: 27 },
+  { status: "Application Submitted", color: "text-purple-700", bg: "bg-purple-100", count: 21 },
+  { status: "Admission Issued", color: "text-green-700", bg: "bg-green-100", count: 18 },
+  { status: "Visa Processing", color: "text-teal-700", bg: "bg-teal-100", count: 14 },
+  { status: "Enrolled", color: "text-indigo-700", bg: "bg-indigo-100", count: 11 },
+  { status: "Commission Completed", color: "text-emerald-700", bg: "bg-emerald-100", count: 9 },
 ];

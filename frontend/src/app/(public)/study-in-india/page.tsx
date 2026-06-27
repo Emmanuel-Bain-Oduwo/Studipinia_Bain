@@ -3,7 +3,6 @@ import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import WhatsAppButton from "@/components/layout/WhatsAppButton";
 import Link from "next/link";
-import { CheckCircle, ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Study in India",

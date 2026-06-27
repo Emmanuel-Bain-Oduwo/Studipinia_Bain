@@ -2,12 +2,12 @@
 
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { ArrowRight, Calendar, Star, CheckCircle, Phone } from "lucide-react";
+import { ArrowRight, Calendar, Star } from "lucide-react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
 import { useState } from "react";
-import { WHY_CHOOSE, SITE_CONFIG } from "@/lib/constants";
+import { WHY_CHOOSE } from "@/lib/constants";
 
 const enquirySchema = z.object({
   fullName: z.string().min(2, "Name required"),
@@ -29,15 +29,6 @@ const COUNTRIES = [
   "Ethiopia", "Cameroon", "Senegal", "Guinea", "South Africa",
   "Zambia", "Rwanda", "Ivory Coast", "Mozambique", "Other",
 ];
-
-const fadeUp = {
-  hidden: { opacity: 0, y: 20 },
-  visible: {
-    opacity: 1,
-    y: 0,
-    transition: { duration: 0.5, ease: "easeOut" },
-  },
-};
 
 export default function Hero() {
   const [submitted, setSubmitted] = useState(false);

@@ -42,7 +42,7 @@ export default function Newsletter() {
           {done ? (
             <div className="bg-white/10 rounded-2xl p-8">
               <div className="text-4xl mb-2">🎉</div>
-              <h3 className="text-xl font-bold mb-1">You're subscribed!</h3>
+              <h3 className="text-xl font-bold mb-1">You&apos;re subscribed!</h3>
               <p className="text-blue-200 text-sm">
                 Watch your inbox for updates from Studipinia.
               </p>

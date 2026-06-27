@@ -20,7 +20,7 @@ export default function Universities() {
               Top Partner Universities
             </motion.h2>
             <p className="text-gray-500 mt-1 text-sm">
-              Study at India's finest institutions with our guidance
+              Study at India&apos;s finest institutions with our guidance
             </p>
           </div>
           <Link

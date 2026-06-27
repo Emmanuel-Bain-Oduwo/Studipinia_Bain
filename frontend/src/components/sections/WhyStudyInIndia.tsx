@@ -137,7 +137,7 @@ export default function WhyStudyInIndia() {
               What Students Say
             </h2>
             <div className="bg-white rounded-2xl shadow-lg border border-gray-100 p-6">
-              <div className="text-[#0B3C91] text-4xl font-serif mb-3">"</div>
+              <div className="text-[#0B3C91] text-4xl font-serif mb-3">&ldquo;</div>
               <div className="flex items-start gap-4 mb-4">
                 <div className="w-14 h-14 rounded-full bg-gradient-to-br from-blue-100 to-blue-200 flex items-center justify-center text-2xl flex-shrink-0">
                   👤
