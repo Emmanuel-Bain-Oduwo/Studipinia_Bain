@@ -1,0 +1,52 @@
+# Environment
+.env
+.env.local
+.env.production
+.env.staging
+*.env
+
+# Node
+node_modules/
+.next/
+out/
+dist/
+build/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+.venv/
+*.egg-info/
+dist/
+.pytest_cache/
+
+# Docker
+docker/ssl/
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Editor
+.vscode/settings.json
+.idea/
+*.sublime-workspace
+
+# Logs
+*.log
+logs/
+
+# Database
+*.sqlite
+*.db
+
+# Uploads (local dev)
+uploads/
+media/
