@@ -4,11 +4,10 @@ import WhatsAppButton from "@/components/layout/WhatsAppButton";
 import Hero from "@/components/sections/Hero";
 import Universities from "@/components/sections/Universities";
 import WhyStudyInIndia from "@/components/sections/WhyStudyInIndia";
-import Services from "@/components/sections/Services";
 import Scholarships from "@/components/sections/Scholarships";
 import ApplicationProcess from "@/components/sections/ApplicationProcess";
+import Services from "@/components/sections/Services";
 import FAQ from "@/components/sections/FAQ";
-import BlogPreview from "@/components/sections/BlogPreview";
 import Newsletter from "@/components/sections/Newsletter";
 
 export default function HomePage() {
@@ -19,10 +18,9 @@ export default function HomePage() {
         <Hero />
         <Universities />
         <WhyStudyInIndia />
-        <Services />
         <Scholarships />
         <ApplicationProcess />
-        <BlogPreview />
+        <Services />
         <FAQ />
         <Newsletter />
       </main>
